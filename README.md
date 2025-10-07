@@ -34,7 +34,6 @@ La presente práctica se hizo empleando técnicas como el cálculo de la transfo
 
 **Medición de Shimmer:** Este tipo de operaciones sirve para identificar y cuantificar las variaciones en la amplitud de la señal de la voz, siendo importante para diagnosticar patologías vocales, como por ejemplo que ellas no se juntan correctamente. El aumento en la medición de Shimmer puede suponer una voz áspera o temblorosa.
 
-# 4. Diagramas de flujo.
 
 # 4. Diagramas de flujo.
 
