@@ -35,6 +35,21 @@ La presente práctica se hizo empleando técnicas como el cálculo de la transfo
 **Medición de Shimmer:** Este tipo de operaciones sirve para identificar y cuantificar las variaciones en la amplitud de la señal de la voz, siendo importante para diagnosticar patologías vocales, como por ejemplo que ellas no se juntan correctamente. El aumento en la medición de Shimmer puede suponer una voz áspera o temblorosa.
 
 # 4. Diagramas de flujo.
+
+# 4. Diagramas de flujo.
+
+**4.1. Diagrama de flujo – Parte A: Adquisición de las señales de voz**
+En la parte A se implemeto un algoritmo para analizar y caracterizar señales de voz a partir de grabaciones realizadas por 6 personas (3 mujeres y 3 hombres). el procediemineto se presenta en el siguiente diagrama de flujo:
+<img width="1600" height="1200" alt="image" src="https://github.com/user-attachments/assets/a00f2014-3607-41a0-9427-cdf52a4c8087" />
+
+**4.2. Diagrama de flujo – Parte B: filtro Pasa Banda**
+En la parte B se implemento un algoritmo para el filtrado de seañles de voz previamnete grabadas, con el proposito de eliminar componentes de ruido y conservar únicamente las frecuencias propias de la voz, el procediemineto se presenta en el siguiente diagrama de flujo:
+<img width="1024" height="768" alt="image" src="https://github.com/user-attachments/assets/7fe1976e-59ab-4eb6-8417-e0c83c50afcf" />
+
+**4.3. Diagrama de flujo – Parte B: Medición de Jitter y Shimmer**
+En la parte B se desarrollo en un algoritmo la medición de los parametros de estabilidad de voz espicificando los fenómenos de Jitter y Shimmer lo cuales cuantifican las variaciones en frecuencia,el procediemineto se presenta en el siguiente diagrama de flujo:
+<img width="1024" height="768" alt="image" src="https://github.com/user-attachments/assets/359a4591-5f0e-44d2-9335-f2d7ae40e33a" />
+
 # 5. Adquisicón de la señal.
 Para adquirir las señales de la voz, se hizo mediante la grabación de un audio de voz de aproximadamente 5 segundos y se guardo en un formato .wav (Waveform Audio File Format), el cual es un formato de audio digital para almacenar sonido. Seguido de esto se importó el archivo en python para visualizar la señal de la voz.
 
@@ -138,3 +153,10 @@ En términos generales estos parámetros son útiles para el diagnóstico tempra
 El análisis espectral confirma que las diferencias de género en la voz se reflejan directamente en la estructura de frecuencias pudiendo ser cuantificadas mediante herramientas de procesamiento digital de señales.
 
 # 8. Aplicaciones biomédicas.
+
+<img width="960" height="417" alt="image" src="https://github.com/user-attachments/assets/c6bdae11-5ec9-4a7c-9b2a-f7dac163e382" />
+
+El análisis espectral de la voz tiene importantes aplicaciones biomédicas, ya que permite estudiar las características acústicas y fisiológicas del sistema fonador para evaluar su funcionamiento, a partir del estudio de la frecuencia fundamental, el brillo espectral, la intensidad, el jitter y el shimmer ,y así caracterizar la calidad y estabilidad vocal. Estas mediciones se emplean en la ingeniería biomédica para el diagnóstico y seguimiento de alteraciones laríngeas, como disfonías, parálisis de cuerdas vocales o lesiones nodulares, así como en la detección de trastornos neurológicos que afectan el control motor del habla, de esta manera este análisis se utiliza en la rehabilitación fonoaudiológica, en la validación de prótesis fonatorias y en el desarrollo de sistemas que permiten el monitoreo vocal. 
+También se puede dar un enfoque en la tecnología ya esta técnica tiene una relevancia en la biometría y en el diseño de interfaces basadas en las señales detectadas por la voz, permitiendo así un desarrollo de herramientas que no sean invasivas para el monitoreo y análisis de las señales.
+
+
